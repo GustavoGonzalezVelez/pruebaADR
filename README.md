@@ -1,6 +1,3 @@
-# pruebaADR
-adr colombia
-
 <?php
  
 openlog('TelegramBot', LOG_PID | LOG_PERROR, LOG_LOCAL0);
@@ -31,7 +28,7 @@ include('TelegramBot/Api/Types/Video.php');
 syslog(LOG_DEBUG, '[' . getmypid() . '] – Peticion WebHook recibida desde ' . $_SERVER['REMOTE_ADDR']);
  
 // Inicializar bot con el token
-define(TOKEN, '13724466:AAETkFQjiQGlLeJMchaZr2Kfjih3V3h6uua');
+define(TOKEN, '236994917:AAEcz5bJ7Gw2uWu65VQsWZlQ0Vtm1MzNHuA');
 $bot = new \TelegramBot\Api\BotApi(TOKEN);
  
 $returnArray = true;
